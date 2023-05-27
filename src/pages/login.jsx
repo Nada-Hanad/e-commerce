@@ -57,6 +57,7 @@ function Login() {
           label="Password"
           type="password"
           variant="outlined"
+          value={password}
           onChange={(event) => {
             setPassword(event.target.value);
           }}
@@ -70,7 +71,6 @@ function Login() {
           onClick={handlesubmit}
         >
           {loading ? <CircularProgress /> : "Login"}
-          Login
         </Button>
       </div>
       <div className="right-login"></div>

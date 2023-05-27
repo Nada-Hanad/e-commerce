@@ -25,3 +25,27 @@
   justify-content: center;
   gap: 32px;
 }
+.home {
+  min-height: 100vh;
+  display: grid;
+  padding: 100px;
+}
+
+.swiper1 {
+  width: 100vw;
+}
+.product-slide {
+  display: grid;
+  place-items: center;
+}
+.home h2 {
+  text-align: start;
+}
+select {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 200px;
+  padding: 8px;
+  border-radius: 8px;
+}
